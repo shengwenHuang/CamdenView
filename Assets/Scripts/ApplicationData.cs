@@ -71,15 +71,8 @@ public class ApplicationData
     {
         public string latitude;
         public string longitude;
-        public HumanAddress human_address;
+        public string human_address;
 
-        public class HumanAddress
-        {
-            public string address;
-            public string city;
-            public string state;
-            public string zip;
-        }
     }
 
     public int socrata_id;

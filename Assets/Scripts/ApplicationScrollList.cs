@@ -73,20 +73,20 @@ public class ApplicationScrollList : MonoBehaviour
                 Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
                 if (webRequest.isDone)
                 {
-                    // string jsonResult = webRequest.downloadHandler.text;
-                    // Debug.Log(jsonResult);
+                    string jsonResult = webRequest.downloadHandler.text;
+                    Debug.Log(jsonResult);
 
-                    string filePath = "/Users/xenialice/Documents/PlanningAR0724/Assets/Scripts/jsonText.txt";
-                    string jsonResult;
-                    if(File.Exists(filePath))
-                    {
-                        jsonResult = File.ReadAllText(filePath);
-                    }
-                    else
-                    {
-                        jsonResult = "";
-                    }
-                    Debug.Log("jsonResult" + jsonResult);
+                    // string filePath = "/Users/xenialice/Documents/PlanningAR0724/Assets/Scripts/jsonText.txt";
+                    // string jsonResult;
+                    // if(File.Exists(filePath))
+                    // {
+                    //     jsonResult = File.ReadAllText(filePath);
+                    // }
+                    // else
+                    // {
+                    //     jsonResult = "";
+                    // }
+                    // Debug.Log("jsonResult" + jsonResult);
                     
 
                     // Pass the json to JsonHelper, and create ApplicationDataCollection object
