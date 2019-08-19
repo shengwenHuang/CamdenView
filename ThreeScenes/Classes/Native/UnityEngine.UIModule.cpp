@@ -1489,25 +1489,25 @@ struct  Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED
 {
 public:
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
-	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_Normal_1;
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_Normal_0;
 	// System.Single UnityEngine.Plane::m_Distance
-	float ___m_Distance_2;
+	float ___m_Distance_1;
 
 public:
-	inline static int32_t get_offset_of_m_Normal_1() { return static_cast<int32_t>(offsetof(Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED, ___m_Normal_1)); }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_m_Normal_1() const { return ___m_Normal_1; }
-	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_m_Normal_1() { return &___m_Normal_1; }
-	inline void set_m_Normal_1(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
+	inline static int32_t get_offset_of_m_Normal_0() { return static_cast<int32_t>(offsetof(Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED, ___m_Normal_0)); }
+	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_m_Normal_0() const { return ___m_Normal_0; }
+	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_m_Normal_0() { return &___m_Normal_0; }
+	inline void set_m_Normal_0(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
 	{
-		___m_Normal_1 = value;
+		___m_Normal_0 = value;
 	}
 
-	inline static int32_t get_offset_of_m_Distance_2() { return static_cast<int32_t>(offsetof(Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED, ___m_Distance_2)); }
-	inline float get_m_Distance_2() const { return ___m_Distance_2; }
-	inline float* get_address_of_m_Distance_2() { return &___m_Distance_2; }
-	inline void set_m_Distance_2(float value)
+	inline static int32_t get_offset_of_m_Distance_1() { return static_cast<int32_t>(offsetof(Plane_t0903921088DEEDE1BCDEA5BF279EDBCFC9679AED, ___m_Distance_1)); }
+	inline float get_m_Distance_1() const { return ___m_Distance_1; }
+	inline float* get_address_of_m_Distance_1() { return &___m_Distance_1; }
+	inline void set_m_Distance_1(float value)
 	{
-		___m_Distance_2 = value;
+		___m_Distance_1 = value;
 	}
 };
 
@@ -2125,15 +2125,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_renderMode_mAF68701B143F01
 	_il2cpp_icall_func = (Canvas_get_renderMode_mAF68701B143F01C7D19B6C7D3033E3B34ECB2FC8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_renderMode()");
 	int32_t retVal = _il2cpp_icall_func(__this);
 	return retVal;
-}
-// System.Void UnityEngine.Canvas::set_renderMode(UnityEngine.RenderMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_renderMode_m0AF240B53EB3B619DABA121213A162230EB84203 (Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591 * __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	typedef void (*Canvas_set_renderMode_m0AF240B53EB3B619DABA121213A162230EB84203_ftn) (Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591 *, int32_t);
-	static Canvas_set_renderMode_m0AF240B53EB3B619DABA121213A162230EB84203_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Canvas_set_renderMode_m0AF240B53EB3B619DABA121213A162230EB84203_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_renderMode(UnityEngine.RenderMode)");
-	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Boolean UnityEngine.Canvas::get_isRootCanvas()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_isRootCanvas_mA4ADE90017884B88AF7A9DD3114FDD4FEB73918A (Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591 * __this, const RuntimeMethod* method)

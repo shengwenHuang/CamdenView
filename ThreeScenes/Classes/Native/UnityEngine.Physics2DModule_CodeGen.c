@@ -41,9 +41,9 @@ static Il2CppMethodPointer s_methodPointers[5] =
 static const int32_t s_InvokerIndices[5] = 
 {
 	8,
-	1610,
-	1610,
-	739,
+	1142,
+	1142,
+	684,
 	14,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;

@@ -234,56 +234,6 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshCollider",
-            "fullManagedTypeName": "UnityEngine.MeshCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CapsuleCollider",
-            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider",
-            "fullManagedTypeName": "UnityEngine.BoxCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity",
-                "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SphereCollider",
-            "fullManagedTypeName": "UnityEngine.SphereCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "TextMesh",
-            "fullManagedTypeName": "UnityEngine.TextMesh",
-            "moduleName": "TextRendering",
-            "usedInScenes": [
                 "Assets/Scenes/ListOfApp.unity"
             ]
         },
@@ -296,24 +246,6 @@
                 "Assets/Scenes/ListOfApp.unity",
                 "Assets/Scenes/MapOfApp.unity",
                 "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Animator",
-            "fullManagedTypeName": "UnityEngine.Animator",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Avatar",
-            "fullManagedTypeName": "UnityEngine.Avatar",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
             ]
         },
         {
@@ -347,26 +279,6 @@
                 "Assets/Scenes/ListOfApp.unity",
                 "Assets/Scenes/MapOfApp.unity",
                 "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Renderer",
-            "fullManagedTypeName": "UnityEngine.Renderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity",
-                "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CanvasGroup",
-            "fullManagedTypeName": "UnityEngine.CanvasGroup",
-            "moduleName": "UI",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
             ]
         },
         {
@@ -437,23 +349,11 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider",
-            "fullManagedTypeName": "UnityEngine.Collider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity",
-                "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioListener",
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity"
+                "Assets/Scenes/ListOfApp.unity"
             ]
         },
         {
@@ -524,21 +424,57 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SpriteRenderer",
-            "fullManagedTypeName": "UnityEngine.SpriteRenderer",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
+                "Assets/Scenes/ListOfApp.unity",
+                "Assets/Scenes/DragAndDrop-house02.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
+            "nativeClass": "LineRenderer",
+            "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity"
+                "Assets/Scenes/DragAndDrop-house02.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/DragAndDrop-house02.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider",
+            "fullManagedTypeName": "UnityEngine.BoxCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/DragAndDrop-house02.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Renderer",
+            "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/DragAndDrop-house02.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/DragAndDrop-house02.unity"
             ]
         },
         {
@@ -547,8 +483,6 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity",
                 "Assets/Scenes/DragAndDrop-house02.unity"
             ]
         },
@@ -556,28 +490,6 @@
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MeshRenderer",
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity",
-                "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity",
-                "Assets/Scenes/MapOfApp.unity",
-                "Assets/Scenes/DragAndDrop-house02.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LineRenderer",
-            "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/DragAndDrop-house02.unity"
@@ -600,203 +512,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "GPS",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "LoadOnClick",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.CameraBillboard",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.DragableDirectionWaypoint",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.FeatureUiMarker",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.ImmediatePositionWithLocationProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.LabelTextSetter",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.MakiHelper",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.PoiLabelTextSetter",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.PoiMarkerHelper",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.RotateWithLocationProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Examples.TextMeshOutline",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.AngleSmoothingAverage",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.AngleSmoothingLowPass",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.AngleSmoothingNoOp",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.DeviceLocationProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.DeviceLocationProviderAndroidNative",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.EditorLocationProviderLocationLog",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.LocationArrayEditorLocationProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.LocationProviderFactory",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Location.TransformLocationProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Map.AbstractMap",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Map.InitializeMapWithLocationProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.MeshGeneration.Data.AtlasInfo",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.MeshGeneration.Modifiers.PrefabModifier",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.MeshGeneration.Modifiers.ReplaceFeatureCollectionModifier",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Utilities.DebugTools.SceneData",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Utilities.DebugTools.ScenesList",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Mapbox.Unity.Utilities.Runnable",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -825,20 +548,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "SampleButton",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ScriptablePalette",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityARKitPluginSettings",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -944,13 +653,6 @@
             "managedAssemblyName": "Unity.ugui.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.ugui.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.HorizontalLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
         },

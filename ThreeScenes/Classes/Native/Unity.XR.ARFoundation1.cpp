@@ -61,7 +61,7 @@ struct Dictionary_2_t9780DA231BA452BFBD83FA24408472862BDD8A9F;
 // System.Collections.Generic.Dictionary`2<UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.XR.ARFoundation.ARTrackedObject>
 struct Dictionary_2_t7116D748B82F22745165A58860178637960C3D0B;
 // System.Collections.Generic.IEqualityComparer`1<System.Guid>
-struct IEqualityComparer_1_t2AA4D20DBA302357E1F31C5F476C23E7FDE0A52C;
+struct IEqualityComparer_1_t115676D96438FDBACD8CF3D315CE22849B4B9279;
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D;
 // System.Collections.Generic.List`1<UnityEngine.Vector3>

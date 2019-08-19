@@ -22,7 +22,13 @@ public class ApplicationScrollList : MonoBehaviour
     void Start()
     {
         // A correct website page.
-        StartCoroutine(GetRequest("https://opendata.camden.gov.uk/resource/2eiu-s2cw.json"));
+        StartCoroutine(GPS.StartGPS());
+        string app_token = "?$$app_token=kSjpRfdeqdvpZ7fyhJeP0spe1";
+        string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
+        // string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
+        string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + query;
+        Debug.Log(url);
+        StartCoroutine(GetRequest(url));
 
         // A non-existing page.
         StartCoroutine(GetRequest("https://error.html"));

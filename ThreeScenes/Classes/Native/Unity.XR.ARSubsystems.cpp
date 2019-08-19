@@ -16313,7 +16313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystemCinfo_Equals_mFE87F930B
 		Type_t * L_3 = XRCameraSubsystemCinfo_get_implementationType_m6240AB836CC4FDF45C40F018932181137A9F4EFC_inline((XRCameraSubsystemCinfo_t2DEC704C4D0CB1EC17BB8521B3358EE08C878BCC *)__this, /*hidden argument*/NULL);
 		Type_t * L_4 = XRCameraSubsystemCinfo_get_implementationType_m6240AB836CC4FDF45C40F018932181137A9F4EFC_inline((XRCameraSubsystemCinfo_t2DEC704C4D0CB1EC17BB8521B3358EE08C878BCC *)(&___other0), /*hidden argument*/NULL);
 		NullCheck(L_3);
-		bool L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::Equals(System.Type) */, L_3, L_4);
+		bool L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(106 /* System.Boolean System.Type::Equals(System.Type) */, L_3, L_4);
 		if (!L_5)
 		{
 			goto IL_00d3;
@@ -16706,7 +16706,7 @@ IL_0022:
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_8 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		bool L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_6, L_8);
+		bool L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(101 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_6, L_8);
 		G_B5_0 = ((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		goto IL_004d;
 	}
@@ -18860,7 +18860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREnvironmentProbeSubsystemCinfo_Equals_
 		Type_t * L_3 = XREnvironmentProbeSubsystemCinfo_get_implementationType_m4092117AA12E3175B4DBCA30FC7E035E785058E0_inline((XREnvironmentProbeSubsystemCinfo_t71B923989253D62CAEBD5D31113D6B6625A0AB5A *)__this, /*hidden argument*/NULL);
 		Type_t * L_4 = XREnvironmentProbeSubsystemCinfo_get_implementationType_m4092117AA12E3175B4DBCA30FC7E035E785058E0_inline((XREnvironmentProbeSubsystemCinfo_t71B923989253D62CAEBD5D31113D6B6625A0AB5A *)(&___other0), /*hidden argument*/NULL);
 		NullCheck(L_3);
-		bool L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::Equals(System.Type) */, L_3, L_4);
+		bool L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(106 /* System.Boolean System.Type::Equals(System.Type) */, L_3, L_4);
 		if (!L_5)
 		{
 			goto IL_009f;
@@ -19280,7 +19280,7 @@ IL_0022:
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_8 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		bool L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_6, L_8);
+		bool L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(101 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_6, L_8);
 		G_B5_0 = ((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		goto IL_004d;
 	}

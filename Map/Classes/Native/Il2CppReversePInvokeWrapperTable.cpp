@@ -1,0 +1,266 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+
+#include "codegen/il2cpp-codegen.h"
+#include "il2cpp-object-internals.h"
+
+
+// System.Char[]
+struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
+// System.String
+struct String_t;
+// System.Void
+struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
+
+struct ColorInterop_t0001A39DB1C79943CCEADEE0C69310D45AD1CED2 ;
+struct Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 ;
+struct Vector2_tA85D2DD88578276CA8A8796756458277E72D073D ;
+struct Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 ;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Object
+
+
+// System.ValueType
+struct  ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
+{
+};
+
+// System.Enum
+struct  Enum_t2AF27C02B8653AE29442467390005ABC74D8F521  : public ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF
+{
+public:
+
+public:
+};
+
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_StaticFields
+{
+public:
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* ___enumSeperatorCharArray_0;
+
+public:
+	inline static int32_t get_offset_of_enumSeperatorCharArray_0() { return static_cast<int32_t>(offsetof(Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_StaticFields, ___enumSeperatorCharArray_0)); }
+	inline CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* get_enumSeperatorCharArray_0() const { return ___enumSeperatorCharArray_0; }
+	inline CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2** get_address_of_enumSeperatorCharArray_0() { return &___enumSeperatorCharArray_0; }
+	inline void set_enumSeperatorCharArray_0(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* value)
+	{
+		___enumSeperatorCharArray_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___enumSeperatorCharArray_0), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_com
+{
+};
+
+// System.IntPtr
+struct  IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+
+// System.Void
+struct  Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017__padding[1];
+	};
+
+public:
+};
+
+
+// UnityEngine.XR.ARKit.ARWorldMapRequestStatus
+struct  ARWorldMapRequestStatus_tF71BE763C5F9644F3D7377ACE110F7FFBBE3D5DC 
+{
+public:
+	// System.Int32 UnityEngine.XR.ARKit.ARWorldMapRequestStatus::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ARWorldMapRequestStatus_tF71BE763C5F9644F3D7377ACE110F7FFBBE3D5DC, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Wrld.MapCamera.CameraApiInternal_CameraEventType
+struct  CameraEventType_tD8D44B55EA9E82615D500951D7011C6B74652896 
+{
+public:
+	// System.Int32 Wrld.MapCamera.CameraApiInternal_CameraEventType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(CameraEventType_tD8D44B55EA9E82615D500951D7011C6B74652896, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARKitSessionSubsystem_OnAsyncConversionComplete_mAF81D4ED67F8334B95C4376905DB2418863E3508(int32_t ___status0, int32_t ___worldMapId1, intptr_t ___context2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_AssertHandler_HandleAssert_m46F8ECCA68C4CDE107E3B36ABFA3ADAA67040062(char* ___message0, char* ___file1, int32_t ___line2);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_ThreadService_CreateThread_m6BCA35CF60515C8447C028CADE9A22CB9BFFECCF(intptr_t ___threadServiceHandle0, Il2CppMethodPointer ___runFunc1, intptr_t ___startData2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ThreadService_JoinThread_m0521EB79AAE6BE3086574D3BF4A1E88918EECE17(intptr_t ___threadServiceHandle0, int32_t ___threadID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_FatalErrorHandler_HandleFatalError_m1FBD35FC27A6B4D8E54B3D60BFD2D569664CF21D(char* ___message0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_SetMaterial_m7D3EBD7BAAEB80AD53718572C9F9131A63FEBF58(intptr_t ___indoorMapSceneHandle0, char* ___objectID1, intptr_t ___materialHandle2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_SetMaterialForInstancedRenderable_mAD6CE467440B1D56D02C9C0A8EAAA42B879B0E84(intptr_t ___indoorMapSceneHandle0, char* ___objectID1, intptr_t ___materialHandle2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_AddRenderable_mBE396995114E64ED9D3CAC8EA126479AB223903B(intptr_t ___indoorMapSceneHandle0, char* ___meshID1, char* ___indoorMapName2, intptr_t ___nativeRenderablePtr3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_AddHighlightRenderable_mDCC4A2110CC4B510F94AFDF8F70E06B1A2D16398(intptr_t ___indoorMapSceneHandle0, char* ___meshID1, char* ___indoorMapName2, intptr_t ___nativeRenderablePtr3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_AddInstancedRenderable_m84579B59708EC3013BED59A10A6A6626F312FB6F(intptr_t ___indoorMapSceneHandle0, char* ___meshID1, char* ___indoorMapName2, int32_t ___transformCount3, intptr_t ___positionOffsetsPtr4, intptr_t ___orientationsPtr5, intptr_t ___nativeRenderablePtr6);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_OnRenderStateUpdated_m255FC979319BB8ED8C465E1FD9BB8B5E2FACD341(intptr_t ___indoorMapSceneHandle0, char* ___objectID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_OnRenderStateUpdatedForHighlightRenderable_m94ECE5F8DDCAC757F88A56F9B9375E1AF87F7BD5(intptr_t ___indoorMapSceneHandle0, char* ___objectID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapScene_OnRenderStateUpdatedForInstancedRenderable_mDBE7A18D3D4092C24268B0A28F8FF21227A59761(intptr_t ___indoorMapSceneHandle0, char* ___objectID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CameraApiInternal_OnCameraEvent_m0396234F137F4BD66AAE7FC3A9C45D92F326D9D3(intptr_t ___cameraApiInternalHandle0, int32_t ___eventID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_DeleteMesh_mC2ADCCD4C24385873F9669AA2A5BDBC9C603F28F(intptr_t ___sceneServiceHandle0, char* ___meshID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_AddMesh_m9B7EC35FBD99E690B352884BECC243D23F18CCC0(intptr_t ___sceneServiceHandle0, char* ___meshID1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_SetVisible_mD35ED5ECF69C3F260551A05CB300205B15BE2017(intptr_t ___sceneServiceHandle0, char* ___meshID1, int8_t ___visible2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_SetScale_m724336234B22EC4F03F1FB26509565EF88616036(intptr_t ___sceneServiceHandle0, char* ___objectID1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___scale2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_SetTranslation_m0279226655E3EEC1CD9DE9DDA8AF1F4458E1DB1E(intptr_t ___sceneServiceHandle0, char* ___objectID1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___translation2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_SetOrientation_m87B4BDF176B202FD2DF4E610F66831E77B05B5B0(intptr_t ___sceneServiceHandle0, char* ___meshID1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * ___orientation2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MapGameObjectScene_SetColor_mE702FB8F2801B9D265480F5987C86E999EA83D3B(intptr_t ___sceneServiceHandle0, char* ___objectID1, ColorInterop_t0001A39DB1C79943CCEADEE0C69310D45AD1CED2 * ___color2);
+extern "C" intptr_t DEFAULT_CALL ReversePInvokeWrapper_TextureLoadHandler_AllocateTextureBuffer_m5C55FBC54D26FC8B68427CC51B779C28AE12A324(intptr_t ___textureServiceHandle0, int32_t ___size1, int32_t ___width2, int32_t ___height3, int32_t ___format4, int32_t ___hasMipMaps5);
+extern "C" uint32_t DEFAULT_CALL ReversePInvokeWrapper_TextureLoadHandler_BeginUploadTextureBuffer_mC475B25CCAACB939120525C3C0CD512AED8B158A(intptr_t ___textureServiceHandle0, intptr_t ___bufferPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_TextureLoadHandler_ReleaseTexture_m5C2B15712F5E739908D0E5E89EA907FF12E3FFC6(intptr_t ___textureServiceHandle0, uint32_t ___id1);
+extern "C" uint32_t DEFAULT_CALL ReversePInvokeWrapper_TextureLoadHandler_CreateCubemapFromFaces_m4E17B6F2110184544667BC8E4DB0D5461070F282(intptr_t ___textureServiceHandle0, uint32_t* ___faceIDs1);
+extern "C" intptr_t DEFAULT_CALL ReversePInvokeWrapper_MeshUploader_AllocateUnpackedMesh_m51F8CDBD959E6212FD6FEC28F39FBFAF741A5C3C(int32_t ___vertexCount0, int8_t ___hasUvs1, int8_t ___hasUV2s2, int8_t ___hasNormals3, int8_t ___hasColors4, int32_t ___indexCount5, intptr_t ___name6, intptr_t ___material7);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MeshUploader_UploadUnpackedMesh_mCEF6BDE522764C1290DC640EFCEC7EDCDE731AB6(intptr_t ___meshPtr0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_PrecacheApiInternal_OnPrecacheOperationCompletedCallback_m27922EC8DC1E3AA468C968DBDFDBCF693F1856A0(intptr_t ___internalApiHandle0, int32_t ___operationId1, int8_t ___succeeded2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_BuildingsApiInternal_OnBuildingHighlightChanged_mAD9BE6375AC62185CB83E33C05C99B14D668EA81(intptr_t ___buildingsApiHandle0, int32_t ___buildingHighlightId1);
+extern "C" intptr_t DEFAULT_CALL ReversePInvokeWrapper_IndoorMapMaterialService_CreateMaterial_mA94CE3DF7F04CEE6AE8067476316815322512C96(intptr_t ___materialDescriptorInteropPtr0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapMaterialService_DeleteMaterial_m6C2D5BF209D259E0841D194A21F4AE80E139D46A(intptr_t ___materialServiceHandle0, intptr_t ___materialHandle1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapTextureStreamingService_OnTextureReceived_m8596E85AF96BF5FDBDFA9C1DE39B8A93AC5E6899(intptr_t ___requestHandle0, char* ___texturePath1, uint32_t ___textureId2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapEnteredCallback_mC91143D6AF0273EAD842948B0A95DBE84FEE8FFC(intptr_t ___internalApiHandle0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapExitedCallback_mE220C87CCE365855081132020A7896CAB96F8705(intptr_t ___internalApiHandle0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapFloorChangedCallback_mF6DC8E23444E99623B2FE2805C89A3E29F1AF348(intptr_t ___internalApiHandle0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapEntitiesClickedCallback_mC77E71DF11B290F0FDBD157D885B3FBFD554F3FB(intptr_t ___internalApiHandle0, intptr_t ___entityIdsInteropPtr1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_LabelServiceInternal_AddLabel_mB02EE0D8B353B6199884148AA0AFEC3DCBC5DDC4(intptr_t ___labelServiceHandle0, char* ___labelId1, char* ___labelText2, ColorInterop_t0001A39DB1C79943CCEADEE0C69310D45AD1CED2 * ___color3, int32_t ___baseFontSize4, double ___fontScale5);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_LabelServiceInternal_UpdateLabel_m13EB89257AEA322B7CC3951F0B95B621541694C7(intptr_t ___labelServiceHandle0, char* ___labelId1, ColorInterop_t0001A39DB1C79943CCEADEE0C69310D45AD1CED2 * ___textColor2, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * ___position3, float ___rotationAngleDegrees4);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_LabelServiceInternal_RemoveLabel_mDF3C5225B131DE2734DD572DA8C23603F6BFA071(intptr_t ___labelServiceHandle0, char* ___labelId1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_PositionerApiInternal_OnPositionerUpdated_m693D49F24535DF1A2B730A13B5DB18C46FCBE62D(intptr_t ___positionerApiHandle0);
+
+
+extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[40] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARKitSessionSubsystem_OnAsyncConversionComplete_mAF81D4ED67F8334B95C4376905DB2418863E3508),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_AssertHandler_HandleAssert_m46F8ECCA68C4CDE107E3B36ABFA3ADAA67040062),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ThreadService_CreateThread_m6BCA35CF60515C8447C028CADE9A22CB9BFFECCF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ThreadService_JoinThread_m0521EB79AAE6BE3086574D3BF4A1E88918EECE17),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_FatalErrorHandler_HandleFatalError_m1FBD35FC27A6B4D8E54B3D60BFD2D569664CF21D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_SetMaterial_m7D3EBD7BAAEB80AD53718572C9F9131A63FEBF58),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_SetMaterialForInstancedRenderable_mAD6CE467440B1D56D02C9C0A8EAAA42B879B0E84),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_AddRenderable_mBE396995114E64ED9D3CAC8EA126479AB223903B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_AddHighlightRenderable_mDCC4A2110CC4B510F94AFDF8F70E06B1A2D16398),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_AddInstancedRenderable_m84579B59708EC3013BED59A10A6A6626F312FB6F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_OnRenderStateUpdated_m255FC979319BB8ED8C465E1FD9BB8B5E2FACD341),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_OnRenderStateUpdatedForHighlightRenderable_m94ECE5F8DDCAC757F88A56F9B9375E1AF87F7BD5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapScene_OnRenderStateUpdatedForInstancedRenderable_mDBE7A18D3D4092C24268B0A28F8FF21227A59761),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CameraApiInternal_OnCameraEvent_m0396234F137F4BD66AAE7FC3A9C45D92F326D9D3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_DeleteMesh_mC2ADCCD4C24385873F9669AA2A5BDBC9C603F28F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_AddMesh_m9B7EC35FBD99E690B352884BECC243D23F18CCC0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_SetVisible_mD35ED5ECF69C3F260551A05CB300205B15BE2017),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_SetScale_m724336234B22EC4F03F1FB26509565EF88616036),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_SetTranslation_m0279226655E3EEC1CD9DE9DDA8AF1F4458E1DB1E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_SetOrientation_m87B4BDF176B202FD2DF4E610F66831E77B05B5B0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MapGameObjectScene_SetColor_mE702FB8F2801B9D265480F5987C86E999EA83D3B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TextureLoadHandler_AllocateTextureBuffer_m5C55FBC54D26FC8B68427CC51B779C28AE12A324),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TextureLoadHandler_BeginUploadTextureBuffer_mC475B25CCAACB939120525C3C0CD512AED8B158A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TextureLoadHandler_ReleaseTexture_m5C2B15712F5E739908D0E5E89EA907FF12E3FFC6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_TextureLoadHandler_CreateCubemapFromFaces_m4E17B6F2110184544667BC8E4DB0D5461070F282),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MeshUploader_AllocateUnpackedMesh_m51F8CDBD959E6212FD6FEC28F39FBFAF741A5C3C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MeshUploader_UploadUnpackedMesh_mCEF6BDE522764C1290DC640EFCEC7EDCDE731AB6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_PrecacheApiInternal_OnPrecacheOperationCompletedCallback_m27922EC8DC1E3AA468C968DBDFDBCF693F1856A0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BuildingsApiInternal_OnBuildingHighlightChanged_mAD9BE6375AC62185CB83E33C05C99B14D668EA81),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapMaterialService_CreateMaterial_mA94CE3DF7F04CEE6AE8067476316815322512C96),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapMaterialService_DeleteMaterial_m6C2D5BF209D259E0841D194A21F4AE80E139D46A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapTextureStreamingService_OnTextureReceived_m8596E85AF96BF5FDBDFA9C1DE39B8A93AC5E6899),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapEnteredCallback_mC91143D6AF0273EAD842948B0A95DBE84FEE8FFC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapExitedCallback_mE220C87CCE365855081132020A7896CAB96F8705),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapFloorChangedCallback_mF6DC8E23444E99623B2FE2805C89A3E29F1AF348),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IndoorMapsApiInternal_OnIndoorMapEntitiesClickedCallback_mC77E71DF11B290F0FDBD157D885B3FBFD554F3FB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LabelServiceInternal_AddLabel_mB02EE0D8B353B6199884148AA0AFEC3DCBC5DDC4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LabelServiceInternal_UpdateLabel_m13EB89257AEA322B7CC3951F0B95B621541694C7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LabelServiceInternal_RemoveLabel_mDF3C5225B131DE2734DD572DA8C23603F6BFA071),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_PositionerApiInternal_OnPositionerUpdated_m693D49F24535DF1A2B730A13B5DB18C46FCBE62D),
+};
