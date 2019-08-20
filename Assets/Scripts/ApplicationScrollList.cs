@@ -17,22 +17,39 @@ public class ApplicationScrollList : MonoBehaviour
     // public List<Item> itemList;
     public Transform contentPanel;
     public ObjectPool buttonObjectPool; 
+    public GameObject detailPanel;
 
     // Start is called before the first frame update
     void Start()
     {
         // A correct website page.
-        StartCoroutine(GPS.StartGPS());
+        // StartCoroutine(GPS.StartGPS());
+        // string app_token = "?$$app_token=kSjpRfdeqdvpZ7fyhJeP0spe1";
+        // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
+        // // string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
+        // string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + query;
+        // Debug.Log(url);
+        // StartCoroutine(GetRequest(url));
+
+        // // A non-existing page.
+        // StartCoroutine(GetRequest("https://error.html"));
+        // RefreshDisplay();
+        StartCoroutine(StartRunningGPS());
+    }
+
+    IEnumerator StartRunningGPS()
+    {
+    	// waits for GPS to terminate
+        yield return StartCoroutine(GPS.StartGPS());
         string app_token = "?$$app_token=kSjpRfdeqdvpZ7fyhJeP0spe1";
-        string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
-        // string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
+        // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
+        string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
         string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + query;
         Debug.Log(url);
         StartCoroutine(GetRequest(url));
 
         // A non-existing page.
         StartCoroutine(GetRequest("https://error.html"));
-        // RefreshDisplay();
     }
 
     public void RefreshDisplay()
@@ -47,7 +64,7 @@ public class ApplicationScrollList : MonoBehaviour
         newButton.transform.SetParent(contentPanel, false);
 
         SampleButton sampleButton = newButton.GetComponent<SampleButton>();
-        sampleButton.Setup(item, this);
+        sampleButton.Setup(item, this, detailPanel);
         
         // for (int i = 0; i < itemList.Count; i++)
         // {
@@ -62,6 +79,8 @@ public class ApplicationScrollList : MonoBehaviour
 
     IEnumerator GetRequest(string uri)
     {
+        
+
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
         {
             // Request and wait for the desired page.

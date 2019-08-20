@@ -113,7 +113,7 @@ class BuoyancyEffector2D;
 class PlatformEffector2D; 
 class PointEffector2D; 
 class SurfaceEffector2D; 
-class FlareLayer; 
+class FlareLayer; template <> void RegisterUnityClass<FlareLayer>(const char*);
 class GridLayout; 
 class Grid; 
 class Tilemap; 
@@ -311,7 +311,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 67 non stripped classes
+	//Total: 68 non stripped classes
 	//0. Camera
 	RegisterUnityClass<Camera>("Core");
 	//1. Behaviour
@@ -444,7 +444,9 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<RenderSettings>("Core");
 	//65. AudioListener
 	RegisterUnityClass<AudioListener>("Audio");
-	//66. BoxCollider
+	//66. FlareLayer
+	RegisterUnityClass<FlareLayer>("Core");
+	//67. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
 
 }

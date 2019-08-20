@@ -234,7 +234,8 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
+                "Assets/Scenes/ListOfApp.unity",
+                "Assets/Scenes/MapOfApp.unity"
             ]
         },
         {
@@ -353,7 +354,8 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/ListOfApp.unity"
+                "Assets/Scenes/ListOfApp.unity",
+                "Assets/Scenes/MapOfApp.unity"
             ]
         },
         {
@@ -429,7 +431,17 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ListOfApp.unity",
+                "Assets/Scenes/MapOfApp.unity",
                 "Assets/Scenes/DragAndDrop-house02.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "FlareLayer",
+            "fullManagedTypeName": "UnityEngine.FlareLayer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/MapOfApp.unity"
             ]
         },
         {

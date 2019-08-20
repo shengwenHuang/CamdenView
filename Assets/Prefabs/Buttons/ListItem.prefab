@@ -32,10 +32,10 @@ RectTransform:
   m_Father: {fileID: 8080984602719582255}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 54.3}
-  m_SizeDelta: {x: -157.8, y: -124.9}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -40, y: 34.9}
+  m_SizeDelta: {x: 576.5, y: 49.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7026330383640809090
 CanvasRenderer:
@@ -67,10 +67,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 50
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 4072798414352095716}
   - component: {fileID: 622911828}
   - component: {fileID: 2508559060766667612}
+  - component: {fileID: 7543586016663555610}
   m_Layer: 5
   m_Name: ListItem
   m_TagString: Untagged
@@ -118,8 +119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012793, y: 780.8}
-  m_SizeDelta: {x: 1124, y: 203.5}
+  m_AnchoredPosition: {x: 0, y: 437.8}
+  m_SizeDelta: {x: 750, y: 153.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6144120288677316045
 CanvasRenderer:
@@ -201,7 +202,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2628578825387164451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7543586016663555610}
+        m_MethodName: ClickAsyncSceneName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: AppDetail
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &622911828
@@ -239,6 +251,22 @@ MonoBehaviour:
   button: {fileID: 4072798414352095716}
   title: {fileID: 7488389640817632491}
   detail: {fileID: 8067215402919163143}
+--- !u!114 &7543586016663555610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844469395703372832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd751f5bfb443447c9744cef5f564123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingBar: {fileID: 4671443129419864049, guid: 85fa07c31e7544eca952c606b7af3032,
+    type: 3}
+  loadingImage: {fileID: 1600574538771977206, guid: 44a329589d14f4f6c89b7ce83e7acf9c,
+    type: 3}
 --- !u!1 &8467671359012991952
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,8 +301,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352.9, y: -43.375}
-  m_SizeDelta: {x: 152.1, y: 116.75}
+  m_AnchoredPosition: {x: -229, y: -21.7}
+  m_SizeDelta: {x: 152.1, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2082130890493226556
 CanvasRenderer:
@@ -306,10 +334,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0

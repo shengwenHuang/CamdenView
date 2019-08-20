@@ -7,17 +7,22 @@ public class GPS : MonoBehaviour
     
     public static Vector2 coordinate;
 
+    void Start()
+    {
+    	// StartCoroutine(StartGPS());
+    }
+
     public static IEnumerator StartGPS()
     {
         // First, check if user has location service enabled
         if (!Input.location.isEnabledByUser)
         {
-        	print("not enabled");
-            yield break;
+        	print(Input.location.isEnabledByUser + "not enabled");
+            // yield break;
         }
 
         // Start service before querying location
-        Input.location.Start(5);
+        Input.location.Start(1);
 
         // Wait until service initializes
         int maxWait = 20;
