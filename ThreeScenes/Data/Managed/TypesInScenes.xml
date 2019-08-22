@@ -45,6 +45,7 @@
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AppDetail" preserve="nothing"/>
 		<type fullname="ApplicationScrollList" preserve="nothing"/>
 		<type fullname="ClickToLoadAsync" preserve="nothing"/>
 		<type fullname="GPS" preserve="nothing"/>
@@ -53,6 +54,7 @@
 		<type fullname="PlacementObject" preserve="nothing"/>
 		<type fullname="PlacementWithDragAndDropNotByNameController" preserve="nothing"/>
 		<type fullname="SampleButton" preserve="nothing"/>
+		<type fullname="SingleItemPanel" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARFoundation">
 		<type fullname="UnityEngine.XR.ARFoundation.ARCameraBackground" preserve="nothing"/>

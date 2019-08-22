@@ -44,6 +44,8 @@ public class ApplicationScrollList : MonoBehaviour
         string app_token = "?$$app_token=kSjpRfdeqdvpZ7fyhJeP0spe1";
         // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
         string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
+        // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
+        // string query = "?$order=distance_in_meters(location_to_point(longitude, latitude), 'POINT(-0.112462, 51.552600)') ASC";
         string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + query;
         Debug.Log(url);
         StartCoroutine(GetRequest(url));
