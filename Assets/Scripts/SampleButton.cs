@@ -32,6 +32,7 @@ public class SampleButton : MonoBehaviour
     public void ButtonClicked(ApplicationData currentItem, GameObject detailPanel)
     {
         detailPanel.SetActive(true);
+        
         AppDetail detail = detailPanel.GetComponentInChildren<AppDetail>();
         detail.display(currentItem);
     }

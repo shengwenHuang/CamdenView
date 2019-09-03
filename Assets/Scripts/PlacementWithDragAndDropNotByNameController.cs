@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
@@ -51,6 +51,11 @@ public class PlacementWithDragAndDropNotByNameController : MonoBehaviour
     }
     private void Dismiss() => welcomePanel.SetActive(false);
 
+    void Start()
+    {
+        StartCoroutine(GPS.StartGPS());
+    }
+
     void Update()
     {
         // do not capture events unless the welcome panel is hidden
@@ -82,6 +87,7 @@ public class PlacementWithDragAndDropNotByNameController : MonoBehaviour
 
                     if(placementObject == null && !placedAlready)
                     {
+                        // if not yet created
                         placementObject = Instantiate(placedPrefab, hitPose.position, hitPose.rotation).GetComponent<PlacementObject>();
                         placedAlready = true;
                         print("initiate");
@@ -107,6 +113,7 @@ public class PlacementWithDragAndDropNotByNameController : MonoBehaviour
                 // }
                 if(arRaycastManager.Raycast(touchPosition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
+                    // created and attemp to drag it
                     print("ar ray");
                     Pose hitPose = hits[0].pose;
                     if(placementObject != null)

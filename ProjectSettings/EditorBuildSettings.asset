@@ -14,22 +14,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DragAndDrop-house.unity
     guid: 41b0084d748bc476f8b6a5d69deb2d93
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ListOfApp.unity
     guid: 9ed1961e398d140d9886fc808aba39dc
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MapOfApp.unity
     guid: 3dabaf502023441c28d7d68ebd840f28
   - enabled: 0
     path: Assets/Scenes/AppDetail.unity
     guid: 1b73e7413b35b4310a24e22070882395
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DragAndDrop-house02.unity
     guid: 81491c4aa809846b1b45ea1496ea656d
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/DragAndDrop-house03.unity
+    guid: 916ddebb176cf4c918201e340a79da85
   m_configObjects: {}
