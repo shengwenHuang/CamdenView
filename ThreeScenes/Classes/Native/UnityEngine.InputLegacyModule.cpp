@@ -988,6 +988,24 @@ public:
 };
 
 
+// UnityEngine.KeyCode
+struct  KeyCode_tC93EA87C5A6901160B583ADFCD3EF6726570DC3C 
+{
+public:
+	// System.Int32 UnityEngine.KeyCode::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(KeyCode_tC93EA87C5A6901160B583ADFCD3EF6726570DC3C, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.LocationServiceStatus
 struct  LocationServiceStatus_tA5EAB519D868E16B0F8907DBDBA772F3F08D26D4 
 {
@@ -1517,6 +1535,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * CameraRaycastHelper_RaycastTry2D_Injected_m287E51B2B7D2F6D14B400A6EEA90FF6F83CF5F62 (Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___cam0, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2 * ___ray1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::GetTouch_Injected(System.Int32,UnityEngine.Touch&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_mDD8AC74C22DC466C6CC45C46A2089FCF5F4F5CFB (int32_t ___index0, Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * ___ret1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_mD9867F6FBC8BDCA7D7C82E56471B5C841A9BEB65 (int32_t ___key0, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::get_mousePosition_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mousePosition_Injected_m16BF01CA8D64169CE48F8EA804A3F25832316B63 (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::get_mouseScrollDelta_Injected(UnityEngine.Vector2&)
@@ -1633,6 +1653,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_fingerId_m2EF0EF2E6E388C8D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  Touch_get_position_m2E60676112DA3628CF2DC76418A275C7FE521D8F (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * __this, const RuntimeMethod* method);
 // UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_phase_m759A61477ECBBD90A57E36F1166EB9340A0FE349 (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * __this, const RuntimeMethod* method);
+// System.Single UnityEngine.Touch::get_pressure()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_pressure_m578EAD1C39381E57072E0DF979CE9CC11C32CFC3 (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * __this, const RuntimeMethod* method);
 // UnityEngine.TouchType UnityEngine.Touch::get_type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_type_mAF919D12756ABA000A17146E82FDDFCEBFD6EEA9 (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * __this, const RuntimeMethod* method);
 #ifdef __clang__
@@ -1706,6 +1728,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_mD9867F6FBC8BDCA7D7C82E56471B5C841A9BEB65 (int32_t ___key0, const RuntimeMethod* method)
+{
+	typedef bool (*Input_GetKeyInt_mD9867F6FBC8BDCA7D7C82E56471B5C841A9BEB65_ftn) (int32_t);
+	static Input_GetKeyInt_mD9867F6FBC8BDCA7D7C82E56471B5C841A9BEB65_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyInt_mD9867F6FBC8BDCA7D7C82E56471B5C841A9BEB65_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)");
+	bool retVal = _il2cpp_icall_func(___key0);
+	return retVal;
+}
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxisRaw_mC68301A9D93702F0C393E45C6337348062EACE21 (String_t* ___axisName0, const RuntimeMethod* method)
 {
@@ -1766,6 +1798,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2D
 		Input_GetTouch_Injected_mDD8AC74C22DC466C6CC45C46A2089FCF5F4F5CFB(L_0, (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 *)(&V_0), /*hidden argument*/NULL);
 		Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8  L_1 = V_0;
 		return L_1;
+	}
+}
+// System.Boolean UnityEngine.Input::GetKey(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_m46AA83E14F9C3A75E06FE0A8C55740D47B2DB784 (int32_t ___key0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___key0;
+		bool L_1 = Input_GetKeyInt_mD9867F6FBC8BDCA7D7C82E56471B5C841A9BEB65(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_2 = V_0;
+		return L_2;
 	}
 }
 // UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()
@@ -3367,6 +3416,27 @@ IL2CPP_EXTERN_C  int32_t Touch_get_phase_m759A61477ECBBD90A57E36F1166EB9340A0FE3
 {
 	Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * _thisAdjusted = reinterpret_cast<Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 *>(__this + 1);
 	return Touch_get_phase_m759A61477ECBBD90A57E36F1166EB9340A0FE349(_thisAdjusted, method);
+}
+// System.Single UnityEngine.Touch::get_pressure()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Touch_get_pressure_m578EAD1C39381E57072E0DF979CE9CC11C32CFC3 (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * __this, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_m_Pressure_8();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  float Touch_get_pressure_m578EAD1C39381E57072E0DF979CE9CC11C32CFC3_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * _thisAdjusted = reinterpret_cast<Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 *>(__this + 1);
+	return Touch_get_pressure_m578EAD1C39381E57072E0DF979CE9CC11C32CFC3(_thisAdjusted, method);
 }
 // UnityEngine.TouchType UnityEngine.Touch::get_type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_type_mAF919D12756ABA000A17146E82FDDFCEBFD6EEA9 (Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 * __this, const RuntimeMethod* method)

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// this code is modified from Unity Learn tutorial
+// https://learn.unity.com/tutorial/live-training-shop-ui-with-runtime-scroll-lists/?tab=overview
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -35,6 +37,9 @@ public class SampleButton : MonoBehaviour
         
         AppDetail detail = detailPanel.GetComponentInChildren<AppDetail>();
         detail.display(currentItem);
+
+        SingleItemPanel signleItemPanel = detailPanel.GetComponent<SingleItemPanel>();
+        signleItemPanel.setCoord(float.Parse(currentItem.latitude), float.Parse(currentItem.longitude));
     }
 
 }

@@ -27021,6 +27021,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Atan_m95D036588EE2D13FA24FC14AEEF
 {
 	return atan(___d0);
 }
+// System.Double System.Math::Atan2(System.Double,System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Atan2_m848DC92AACB9FFBDC3D69311677367B3F51086D1 (double ___y0, double ___x1)
+{
+	return atan2(___y0, ___x1);
+}
 // System.Double System.Math::Ceiling(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Ceiling_m379E37FEB7C1DC30F53CBFA8896E0DD0804C44C7 (double ___a0)
 {
@@ -27099,6 +27104,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Sqrt_mB2008A97F28A0FC333E8DA31C6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Log_mD51F54D254E1380E2317F19403E67DFB15008CD9 (double ___d0)
 {
 	return log(___d0);
+}
+// System.Double System.Math::Exp(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Exp_m278C8D07D8F3A6DEAA2632DB90C24FF758BCC661 (double ___d0)
+{
+	return exp(___d0);
 }
 // System.Double System.Math::Pow(System.Double,System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Pow_m9CD842663B1A2FA4C66EEFFC6F0D705B40BE46F1 (double ___x0, double ___y1)

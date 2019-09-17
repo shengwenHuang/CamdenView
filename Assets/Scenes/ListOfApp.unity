@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -685,7 +685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: System Status
+  m_Text: SYSTEM STATUS
 --- !u!222 &314029656
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1003,7 +1003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &618455788
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1046,8 +1046,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 30908e0eb80a340749d19f76160536e4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1090,6 +1090,7 @@ GameObject:
   - component: {fileID: 618815312}
   - component: {fileID: 618815314}
   - component: {fileID: 618815313}
+  - component: {fileID: 618815315}
   m_Layer: 5
   m_Name: url
   m_TagString: Untagged
@@ -1129,7 +1130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1158,6 +1159,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618815311}
   m_CullTransparentMesh: 0
+--- !u!114 &618815315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618815311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade1290dfbabb0c48b773644d6d4bdf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &713979062 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1600574538921958873, guid: 44a329589d14f4f6c89b7ce83e7acf9c,
@@ -1339,7 +1352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Full Application
+  m_Text: FULL APPLICATION
 --- !u!222 &836639474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1441,8 +1454,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 30908e0eb80a340749d19f76160536e4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1466,11 +1479,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1431529253}
     m_Modifications:
-    - target: {fileID: 4154933884874683128, guid: d5d348ff7e15044738cb5b086d37ae5f,
-        type: 3}
-      propertyPath: m_Name
-      value: List
-      objectReference: {fileID: 0}
     - target: {fileID: 4154933884874683135, guid: d5d348ff7e15044738cb5b086d37ae5f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1576,6 +1584,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4154933884874683128, guid: d5d348ff7e15044738cb5b086d37ae5f,
+        type: 3}
+      propertyPath: m_Name
+      value: List
+      objectReference: {fileID: 0}
     - target: {fileID: 4154933884874683134, guid: d5d348ff7e15044738cb5b086d37ae5f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1633,7 +1646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1947,8 +1960,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -56}
+  m_SizeDelta: {x: 0, y: -45.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1314477393
 MonoBehaviour:
@@ -1983,7 +1996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: AR view
 --- !u!222 &1314477394
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2042,7 +2055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2147,7 +2160,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2267,7 +2280,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Application Type
+  m_Text: APPLICATION TYPE
 --- !u!222 &1475113963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2432,7 +2445,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1592047995}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1431529255}
+        m_MethodName: ClickAsync
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1592047995
@@ -2544,7 +2568,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Registered Date
+  m_Text: REGISTERED DATE
 --- !u!222 &1691834307
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2730,7 +2754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.44313726, g: 0.44313726, b: 0.44313726, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2830,7 +2854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Development Address
+  m_Text: DEVELOPMENT ADDRESS
 --- !u!222 &1817614297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2910,7 +2934,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Development Description
+  m_Text: DEVELOPMENT DESCRIPTION
 --- !u!222 &1838540368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3026,7 +3050,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Decision Date
+  m_Text: DECISION DATE
 --- !u!222 &1939400917
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3093,8 +3117,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 30908e0eb80a340749d19f76160536e4, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3414,7 +3438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Title
+  m_Text: TITLE
 --- !u!222 &2115661789
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3564,11 +3588,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1431529253}
     m_Modifications:
-    - target: {fileID: 4109094465833916758, guid: 23960629422f84d0796d5e6c438a54c4,
-        type: 3}
-      propertyPath: m_Name
-      value: Application
-      objectReference: {fileID: 0}
     - target: {fileID: 4109094465833916759, guid: 23960629422f84d0796d5e6c438a54c4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3632,7 +3651,7 @@ PrefabInstance:
     - target: {fileID: 4109094465833916759, guid: 23960629422f84d0796d5e6c438a54c4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 614
+      value: 611
       objectReference: {fileID: 0}
     - target: {fileID: 4109094465833916759, guid: 23960629422f84d0796d5e6c438a54c4,
         type: 3}
@@ -3673,6 +3692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109094465833916758, guid: 23960629422f84d0796d5e6c438a54c4,
+        type: 3}
+      propertyPath: m_Name
+      value: Application
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23960629422f84d0796d5e6c438a54c4, type: 3}

@@ -1,16 +1,12 @@
-﻿using System.Collections;
+﻿// this code is modified from Unity Learn tutorial
+// https://learn.unity.com/tutorial/live-training-shop-ui-with-runtime-scroll-lists/?tab=overview
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using System.IO;
 
-// [System.Serializable]
-// public class Item
-// {
-//     public string itemTitle;
-//     public string itemDetail;
-// }
 
 public class ApplicationScrollList : MonoBehaviour
 {
@@ -22,18 +18,6 @@ public class ApplicationScrollList : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // A correct website page.
-        // StartCoroutine(GPS.StartGPS());
-        // string app_token = "?$$app_token=kSjpRfdeqdvpZ7fyhJeP0spe1";
-        // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
-        // // string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
-        // string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + query;
-        // Debug.Log(url);
-        // StartCoroutine(GetRequest(url));
-
-        // // A non-existing page.
-        // StartCoroutine(GetRequest("https://error.html"));
-        // RefreshDisplay();
         StartCoroutine(StartRunningGPS());
     }
 
@@ -43,20 +27,15 @@ public class ApplicationScrollList : MonoBehaviour
         yield return StartCoroutine(GPS.StartGPS());
         string app_token = "?$$app_token=kSjpRfdeqdvpZ7fyhJeP0spe1";
         // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
-        string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
-        // string query = "?$where=within_circle(location, " + GPS.coordinate.x + ", " + GPS.coordinate.y + ", 2000)";
-        // string query = "?$order=distance_in_meters(location_to_point(longitude, latitude), 'POINT(-0.112462, 51.552600)') ASC";
-        string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + query;
+        // string query = "?$where=within_circle(location, 51.552600, -0.112462, 2000)";
+        string query = "&$order=DISTANCE_IN_METERS(location, 'POINT(" + GPS.coordinate.y + " " + GPS.coordinate.x + ")')ASC";
+        // string query = "&$order=DISTANCE_IN_METERS(location, 'POINT(-0.112462 51.552600)')ASC";
+        string url = "https://opendata.camden.gov.uk/resource/2eiu-s2cw.json" + app_token + query;
         Debug.Log(url);
         StartCoroutine(GetRequest(url));
 
         // A non-existing page.
         StartCoroutine(GetRequest("https://error.html"));
-    }
-
-    public void RefreshDisplay()
-    {
-        // AddButtons(applicationItem);
     }
 
     private void AddButtons(ApplicationData applicationItem)
@@ -68,15 +47,6 @@ public class ApplicationScrollList : MonoBehaviour
         SampleButton sampleButton = newButton.GetComponent<SampleButton>();
         sampleButton.Setup(item, this, detailPanel);
         
-        // for (int i = 0; i < itemList.Count; i++)
-        // {
-        //     Item item = itemList[i];
-        //     GameObject newButton = buttonObjectPool.GetObject();
-        //     newButton.transform.SetParent(contentPanel, false);
-
-        //     SampleButton sampleButton = newButton.GetComponent<SampleButton>();
-        //     sampleButton.Setup(item, this);
-        // }
     }
 
     IEnumerator GetRequest(string uri)
@@ -102,18 +72,6 @@ public class ApplicationScrollList : MonoBehaviour
                 {
                     string jsonResult = webRequest.downloadHandler.text;
                     Debug.Log(jsonResult);
-
-                    // string filePath = "/Users/xenialice/Documents/PlanningAR0724/Assets/Scripts/jsonText.txt";
-                    // string jsonResult;
-                    // if(File.Exists(filePath))
-                    // {
-                    //     jsonResult = File.ReadAllText(filePath);
-                    // }
-                    // else
-                    // {
-                    //     jsonResult = "";
-                    // }
-                    // Debug.Log("jsonResult" + jsonResult);
                     
 
                     // Pass the json to JsonHelper, and create ApplicationDataCollection object
@@ -122,7 +80,6 @@ public class ApplicationScrollList : MonoBehaviour
                     
                     foreach (ApplicationData ad in jsonArray)
                     {
-                        // ApplicationData loadedData = JsonUtility.FromJson<ApplicationData>(jsonResult);
                         AddButtons(ad);
                         
                     }

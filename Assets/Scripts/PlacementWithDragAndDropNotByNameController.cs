@@ -1,3 +1,5 @@
+// this code is modified from Dilmer Valecillos's project on GitHub
+// https://github.com/dilmerv/UnityARFoundationEssentials
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -103,14 +105,7 @@ public class PlacementWithDragAndDropNotByNameController : MonoBehaviour
 
             if(touch.phase == TouchPhase.Moved)
             {
-                // Ray ray = arCamera.ScreenPointToRay(touch.position);
-                // RaycastHit hitObject;
-                // if(Physics.Raycast(ray, out hitObject))
-                // {
-                //     placementObject = hitObject.transform.GetComponent<PlacementObject>();
-                //     print(placementObject);
-                //     print("raycast move");
-                // }
+
                 if(arRaycastManager.Raycast(touchPosition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
                 {
                     // created and attemp to drag it

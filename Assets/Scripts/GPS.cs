@@ -55,4 +55,23 @@ public class GPS : MonoBehaviour
 
     }
 
+// this function is modified from
+// http://wirebeings.com/markerless-gps-ar.html
+    public static float CalcDistance(float lat1, float lon1, float lat2, float lon2)
+	{
+
+		var R = 6378.137; // Radius of earth in KM
+		var dLat = lat2 * Mathf.PI / 180 - lat1 * Mathf.PI / 180;
+		var dLon = lon2 * Mathf.PI / 180 - lon1 * Mathf.PI / 180;
+		float a = Mathf.Sin(dLat / 2) * Mathf.Sin(dLat / 2) +
+		Mathf.Cos(lat1 * Mathf.PI / 180) * Mathf.Cos(lat2 * Mathf.PI / 180) *
+		Mathf.Sin(dLon / 2) * Mathf.Sin(dLon / 2);
+		var c = 2 * Mathf.Atan2(Mathf.Sqrt(a), Mathf.Sqrt(1 - a));
+		double distance = R * c;
+		distance = distance * 1000f; // meters
+		//convert distance from double to float
+		float distanceFloat = (float)distance;
+		return distanceFloat;
+	}
+
 }

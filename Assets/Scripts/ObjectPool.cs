@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// this code came from Unity Learn tutorial 
+// https://learn.unity.com/tutorial/live-training-shop-ui-with-runtime-scroll-lists/?tab=overview
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,7 +19,7 @@ public class ObjectPool : MonoBehaviour
         // if there is an inactive instance of the prefab ready to return, return that
         if (inactiveInstances.Count > 0) 
         {
-            // remove the instance from teh collection of inactive instances
+            // remove the instance from the collection of inactive instances
             spawnedGameObject = inactiveInstances.Pop();
         }
         // otherwise, create a new instance
